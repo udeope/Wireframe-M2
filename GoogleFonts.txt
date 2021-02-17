@@ -1,0 +1,2 @@
+https://fonts.google.com/specimen/Poppins?preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@200;600
+font-family: 'Poppins', sans-serif;
