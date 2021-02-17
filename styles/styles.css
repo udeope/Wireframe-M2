@@ -1,0 +1,207 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: url('/images/forest-931706_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 5px grey;
+    position: relative;
+}
+.logo{
+    background-image: url(/images/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px black;
+    position: absolute;
+    margin-left: 30PX;
+    margin-top: 20px;
+}
+
+.fab{
+    position: absolute;
+    color: white;
+    top: 43px;
+    right: 0;
+}
+.fa-twitter{
+    margin-right: 19px;
+}
+
+.fa-facebook{
+    margin-right: 70px;
+}
+.fa-google-plus-g{
+    margin-right: 110px;   
+}
+
+nav{
+    position: sticky;
+    margin-top: 21px;
+}
+
+ul {
+    font-weight: 600;
+    box-shadow: 5px 5px 10px black;
+    opacity: 0.8;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 2, 2);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+  li {
+    float: left;
+    /* display: inline-block; */
+    width: 20%;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #2a5f2c;
+  }
+
+.img-container{
+  margin-top: 25px;
+  display: flex;
+}
+.img-container__list{
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+}
+
+.img-container__list:first-child{
+  background-image: url(/images/img-webp/autumn-219972_640.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 191px;
+  margin-right: 10px;
+}
+.img-container__list:nth-child(2){
+  background-image: url(/images/img-webp/forest-1072828_640.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 191px;
+  margin-right: 10px;
+
+}
+.img-container__list:last-child{
+  background-image: url(/images/img-webp/road-1072821_640.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 191px;
+}
+
+.title-photo{
+  background-color: rgb(138, 52, 36);
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+  text-align: center;
+  opacity: 0.9;
+  margin-bottom: 70px;
+  /* margin-left: 20px; */
+  /* margin-right: 120px; */
+}
+
+.button{
+  color: rgb(140, 8, 8);
+  font-weight: 600;
+  background-color: whitesmoke;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px black;
+  text-decoration: none;
+}
+
+aside{
+  /* background-color: yellow; */
+  width: 1000px;
+  height: 453px;
+}
+
+
+#blog{
+  text-align: right center;
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#blog-title{
+  text-align: center;
+}
+.contact-first{
+  /* text-align: right center; */
+  margin-right: 40px;
+  text-align: center;
+}
+
+.contact-second{
+  /* text-align: right center; */
+  text-align: center;
+}
+
+#contact{
+  display: flex;
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.img-paisaje{
+  box-shadow: 2px 5px 10px black;
+  width: 100%;
+  height: 120px;
+}
+
+#more{
+  display: none;
+}
+
+
+
+footer{
+  display: flex;
+  background-color: rgb(0, 2, 2);
+  color: white;
+  opacity: 0.8;
+  margin-top: 24px;
+  width: 100%;
+  height: 70px;
+}
+
+footer p{
+  margin-left: 180px;
+  color: white;
+  flex: content;
+}
+footer a{
+  color: white;
+}
